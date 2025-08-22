@@ -1,0 +1,11 @@
+body{
+    background: url(fundo.jpeg)no-repeat;
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}

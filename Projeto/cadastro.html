@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola do Futuro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+</style>
+<body>
+     <center><h1>Sesi-SP<h1></h1>
+        <center><h2>Crie sua conta<h2></h2>
+     <form action="" method=""></form>
+      <fieldset>
+        <center><legend>Selecione seu perfil</legend></center>
+        <p>
+            <input type="radio" id="aluno" name="perfil"/>
+            <label for="aluno">Sou Aluno</label>
+            <br>
+            <input type="radio" id="pai" name="perfil"/>
+            <label for="pai">Sou pai ou Responsável</label>
+            <hr>
+        </p>
+        <p>
+        <label for="email">E-mail educacional</label>
+        <input type="email" id="email" placeholder="insira seu email educacional" required /> 
+        </p>
+         <p>
+        <button onclick="login()">Login</button>
+        <script>
+            function login(){
+                alert("Login feito com sucesso com sucesso")
+            }
+        </script>
+    </p>
+    <P>
+       <a href="http://127.0.0.1:5500/telalogin.html"><u>Voltar a tela de login</u></a>
+    </P>
+      </fieldset>
+      <p>
+        <center><h4>Problemas para acessar? Entre em contato com a secretaria.</h4></center>
+      </p>
+        </form>
+    </body>
+</html>
